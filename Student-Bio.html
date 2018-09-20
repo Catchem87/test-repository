@@ -1,41 +1,64 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Student Bio: Ashley Moras</title>
-            
-    </head>
 
-    <body>
-        
-    <header>
-        <h1>Student Bio</h1>
-    </header>
+<head>
+    <meta charset="UTF-8">
+    <title>Student Bio: Ashley Moras</title>
 
-    <div>
-        <h2>Ashley Moras</h2>
+    <!--Introducing Style Tag-->
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0px;
+        }
+        .container {
+            width: 100%;
+            position: relative;
+        }
+        .header {
+            width: 100%;
+            text-align: center;
+            background-color: black;
+            font-size: 22px;
+            color: white;
+            padding: 10px;
+        }
+        .left {
+            width: 70%;
+            float: left;
+        }
+        .right {
+            width: 30%;
+            float: left;
+        }
 
-        <img height=200px width=200px src="https://avatars3.githubusercontent.com/u/43253693?s=400&u=c3728cad98dc5c256cb27c6693ffe3f19b1ef4da&v=4" alt="Ashley Headshot">
+    </style>
 
-        <p>Ashley grew up in Oakville, ON in a family of six.  She has an older and younger sister, as well as a younger brother.</p>
-        <p>She spent her childhood and teen years training to be a professional ballerina.</p>
-        <p>At the age of 31, Ashley is now returning to school to persue a career in web development.</p>
+</head>
 
-        <br>
+<body>
+
+    <div class="container">
+        <div class="header">Student Bio</div>
+
+        <section class="left">
+            <h2>Ashley Moras</h2>
+            <img height=200px width=200px src="https://avatars3.githubusercontent.com/u/43253693?s=400&u=c3728cad98dc5c256cb27c6693ffe3f19b1ef4da&v=4" alt="Ashley Headshot"
+            <p>Ashley grew up in Oakville, ON in a family of six. She has an older and younger sister, as well as a younger brother. She spent her childhood and teen years training to be a professional ballerina. At the age of 31, Ashley is now returning to school to persue a career in web development.</p>
+        </section>
+
+        <section class="right">
+            <h2>Contact Info</h2>
+            <ul>
+                <li>Email: <a href="mailto:moras.ashley87@gmail.com"> moras.ashley87@gmail.com</a></li>
+                <li>Github: <a href=https://github.com/Catchem87> Catchem87</a> </li> 
+                <li>Portfolio: <a href=Placeholder> Coming Soon</a></li>
+            </ul>
+        </section>
     </div>
-
-    <div>
-        <h2>Contact Info</h2>
-
-        <ul>
-            <li>Email: <a href="mailto:moras.ashley87@gmail.com"> moras.ashley87@gmail.com</a></li>
-            <li>Github: <a href=https://github.com/Catchem87> Catchem87</a></li>
-            <li>Portfolio: <a href=Placeholder> Coming Soon</a></li>
-        </ul>
-        
-    </div>
-
-    </body>
+</body>
 
 </html>
