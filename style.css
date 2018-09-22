@@ -1,0 +1,41 @@
+<!--Introducing Style Tag-->
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0px;
+        }
+
+        .container {
+            width: 100%;
+            position: relative;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .header {
+            width: 100%;
+            text-align: center;
+            background-color: black;
+            font-size: 22px;
+            color: white;
+            padding: 10px;
+        }
+
+        .left {
+            width: 20%;
+            float: left;
+        }
+
+        .center {
+            width: 45%;
+            float: left;
+            margin-top: 50px;
+        }
+
+        .right {
+            width: 35%;
+            float: left;
+        }
+    </style>
